@@ -1,0 +1,29 @@
+return {
+  -- {
+  --   'catppuccin/nvim',
+  --   name = 'catppuccin',
+  --   priority = 1000,
+  --   config = function()
+  --     require('catppuccin').setup {
+  --
+  --       flavour = 'frappe',
+  --       background = {
+  --         light = 'latte',
+  --         dark = 'mocha',
+  --       },
+  --       transparent_background = true, --disables setting the background color.
+  --       dim_inactive = {
+  --         enabled = false, -- dims the background color of inactive window
+  --         shade = 'dark',
+  --         percentage = 0.15, -- percentage of the shade to apply to the inactive window
+  --       },
+  --       styles = { -- Handles the styles of general hi groups (see `:h highlight-args`):
+  --         comments = { 'italic' }, -- Change the style of comments
+  --         keywords = { 'bold' },
+  --       },
+  --     }
+  --     -- Load the colorscheme here.
+  --     vim.cmd.colorscheme 'catppuccin'
+  --   end,
+  -- },
+}
