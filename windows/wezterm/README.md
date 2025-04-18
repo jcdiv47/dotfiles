@@ -1,0 +1,1 @@
+The config file is typically located at `~/.wezterm.lua`.
