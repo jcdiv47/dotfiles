@@ -29,7 +29,7 @@ config.keys = {
   -- create new tab
   { key = "t", mods = "CTRL", action = act.SpawnTab "CurrentPaneDomain" },
   -- activate pane selection mode with the default alphabet (labels are "a", "s", "d", "f" and so on)
-	{ key = "1", mods = "CTRL", action = act.PaneSelect },
+  { key = "1", mods = "CTRL", action = act.PaneSelect },
 }
 
 -- and finally, return the configuration to wezterm
