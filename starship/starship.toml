@@ -48,8 +48,8 @@ disabled = false
 show_always = true
 
 [character]
-success_symbol = "[󰍟](fg:arrow)"
-error_symbol = "[󰍟](fg:red)"
+success_symbol = '[󰁕](bold green) '
+error_symbol = '[](bold red) '
 
 [directory]
 format = "[$path](bold $style)[$read_only]($read_only_style) "
