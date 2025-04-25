@@ -129,8 +129,8 @@ style = "bg:python fg:text_light"
 
 [typst]
 disabled = false
-format = '[ $symbol($version ) ]($style)'
-symbol = ''
+format = '[ $symbol($version) ]($style)'
+symbol = ' '
 style = "bg:typst fg:text_light"
 
 [memory_usage]
