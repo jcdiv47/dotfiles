@@ -18,6 +18,7 @@ $memory_usage\
 $jobs
 [╰─](fg:arrow)$character
 """
+# [╰─](fg:arrow)$character
 # Add the modules you need
 
 # Disable the blank line at the start of the prompt
@@ -48,8 +49,9 @@ disabled = false
 show_always = true
 
 [character]
-success_symbol = '[󰁕](bold green) '
-error_symbol = '[](bold red) '
+# success_symbol = '[ ](bold green) '
+success_symbol = ''
+error_symbol = ' [](bold red) '
 
 [directory]
 format = "[$path](bold $style)[$read_only]($read_only_style) "
