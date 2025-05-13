@@ -18,7 +18,7 @@ $memory_usage\
 $jobs
 [╰─](fg:arrow)$character
 """
-# [╰─](fg:arrow)$character
+
 # Add the modules you need
 
 # Disable the blank line at the start of the prompt
