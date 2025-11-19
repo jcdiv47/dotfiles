@@ -20,9 +20,9 @@
     "format": "{icon}",
     "format-icons": {
       "default": "",
-      "1": "",
-      "2": "2",
-      "3": "3",
+      "1": " ",
+      "2": " ",
+      "3": " ",
       "4": "4",
       "5": "5",
       "6": "6",
@@ -64,7 +64,7 @@
   },
   "clock": {
     "format": "{:L%A %H:%M}",
-    "format-alt": "{:L%d %B W%V %Y %Y}",
+    "format-alt": "{:L%B %d %Y W%V}",
     "tooltip": false,
     "on-click-right": "omarchy-launch-floating-terminal-with-presentation omarchy-tz-select"
   },
