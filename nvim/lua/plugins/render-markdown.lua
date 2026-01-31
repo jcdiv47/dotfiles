@@ -37,7 +37,12 @@ return {
     require("render-markdown").setup({
       preset = "obsidian",
       callout = {
-        readme = { raw = "[!readme]", rendered = "󰋽 Note", highlight = "RenderMarkdownInfo", category = "github" },
+        readmore = {
+          raw = "[!readmore]",
+          rendered = "󰋽 Note",
+          highlight = "RenderMarkdownInfo",
+          category = "github",
+        },
       },
       completions = { lsp = { enabled = true } },
       heading = {
