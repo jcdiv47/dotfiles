@@ -1,0 +1,14 @@
+{
+  "version": 4,
+  "rules": [
+    {
+      "domain_suffix": [
+        "h.jiaqicai.com",
+        "amazonaws.com.cn"
+      ],
+      "domain_keyword": [
+        "m-team"
+      ]
+    }
+  ]
+}
