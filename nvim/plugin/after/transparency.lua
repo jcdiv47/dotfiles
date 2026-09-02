@@ -1,3 +1,7 @@
+if not vim.g.nvim12_transparent_background then
+  return
+end
+
 -- transparent background
 vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
 vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
@@ -15,19 +19,16 @@ vim.api.nvim_set_hl(0, "TelescopeNormal", { bg = "none" })
 vim.api.nvim_set_hl(0, "TelescopePromptBorder", { bg = "none" })
 vim.api.nvim_set_hl(0, "TelescopePromptTitle", { bg = "none" })
 
--- transparent background for neotree
 vim.api.nvim_set_hl(0, "NeoTreeNormal", { bg = "none" })
 vim.api.nvim_set_hl(0, "NeoTreeNormalNC", { bg = "none" })
 vim.api.nvim_set_hl(0, "NeoTreeVertSplit", { bg = "none" })
 vim.api.nvim_set_hl(0, "NeoTreeWinSeparator", { bg = "none" })
 vim.api.nvim_set_hl(0, "NeoTreeEndOfBuffer", { bg = "none" })
 
--- transparent background for nvim-tree
 vim.api.nvim_set_hl(0, "NvimTreeNormal", { bg = "none" })
 vim.api.nvim_set_hl(0, "NvimTreeVertSplit", { bg = "none" })
 vim.api.nvim_set_hl(0, "NvimTreeEndOfBuffer", { bg = "none" })
 
--- transparent notify background
 vim.api.nvim_set_hl(0, "NotifyINFOBody", { bg = "none" })
 vim.api.nvim_set_hl(0, "NotifyERRORBody", { bg = "none" })
 vim.api.nvim_set_hl(0, "NotifyWARNBody", { bg = "none" })

@@ -1,10 +1,11 @@
--- Keymaps are automatically loaded on the VeryLazy event
--- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
--- Add any additional keymaps here
+local map = vim.keymap.set
 
--- Use jj to escape
-vim.keymap.set("i", "jj", "<ESC>")
--- Use jk to escape and save
-vim.keymap.set("i", "jk", "<ESC><cmd>w<CR>")
+map("i", "jj", "<Esc>")
+map("i", "jk", "<Esc><cmd>w<cr>")
 
-vim.keymap.set("n", "<leader>bx", "<cmd>bdelete<CR>", { desc = "Close current [B]uffer" }) -- close current buffer
+map("n", "<leader>bx", function()
+  Snacks.bufdelete()
+end, { desc = "Close current buffer" })
+
+map("n", "<leader>o", "<cmd>Oil<cr>", { desc = "Open Oil" })
+map("n", "<leader>rt", "<cmd>RenderMarkdown toggle<cr>", { desc = "Toggle Render Markdown" })
