@@ -16,9 +16,6 @@ return {
         markdown = { "prettierd", "prettier" },
         yaml = { "prettierd", "prettier" },
       },
-      format_on_save = function()
-        return { timeout_ms = 2000, lsp_format = "fallback" }
-      end,
     },
   },
 }
