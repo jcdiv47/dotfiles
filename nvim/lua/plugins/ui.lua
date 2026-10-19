@@ -93,6 +93,8 @@ return {
       end
 
       return {
+        -- Rendering is off by default; toggle with <leader>rt or :RenderMarkdown enable
+        enabled = false,
         preset = "obsidian",
         callout = {
           readme = { raw = "[!readme]", rendered = "󰋽 Note", highlight = "RenderMarkdownInfo", category = "github" },
